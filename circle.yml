@@ -10,3 +10,8 @@
 test:
   override:    
     - mocha
+deployment:
+  staging:
+    branch: master
+    heroku:
+      appname: nodecitest
