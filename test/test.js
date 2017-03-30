@@ -4,7 +4,8 @@ var expect = require('chai').expect;
 
 // This agent refers to PORT where program is runninng.
 
-var server = supertest.agent("http://localhost:3000");
+var server = supertest.agent("https://www.cognizant.com");
+//var app = require("../app");
 
 // UNIT test begin
 
